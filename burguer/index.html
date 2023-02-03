@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Burguer Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="burguerMenu.css">
+  <script type="module" src="index.js"></script>
+  <script type="module" src="consumibles.js"></script>
+  <script type="module" src="burguerMenu.js"></script>
+  <script type="module" src="time.js"></script>
+  <script type="module" src="cuentaRegresiva.js"></script>
+  <script type="module" src="upScrollButton.js"></script>
+  <script type="module" src="darkMode.js"></script>
+  <script type="module" src="cards.js"></script>
+  <script type="module" src="trie.js"></script>
+  <script type="module" src="filter.js"></script>
+
+
+
+
+</head>
+
+<body>
+        <header>
+            <h1>Ejercicios del DOM</h1>
+        </header>
+        <nav id="navSections">
+            <ul id="sections">
+                <template id="template-navSection">
+                    <li>
+                        <a></a>                        
+                    </li>
+                </template>
+            </ul>
+
+        </nav>
+        <div id="openNavButton">
+
+        </div>
+        <main>
+            <section id="seccion1" class="section">
+                <h2>Sección 1</h2>
+                <div id="clock"></div>
+                <div id="alarm">
+                    <input type="text" id="inputAlarm"/>
+                </div>
+                <button id="startClock">Empezar reloj</button>
+                <button id="stopClock">Parar reloj</button>
+                
+                <button id="startAlarm">Empezar alarma</button>
+                <button id="stopAlarm">Parar alarma</button>
+            </section>
+            <section id="seccion2" class="section">
+                <h2>Sección 2</h2>
+                <div id="regresiveCount">
+
+                </div>
+            </section>
+            <section id="seccion3" class="section">
+                <h2>Sección 3</h2>
+                <div id="scrollButton" class="visibility">
+
+                </div>
+            </section>
+            <section id="seccion4" class="section">
+                <h2>Sección 4</h2>
+                <div id="darkModeButton" >
+
+                </div>
+            </section>
+            <section id="seccion5" class="section">
+                <h2>Filtro de busqueda 5</h2>
+                <input type="text" id="filter"/>
+                <article id="cards">
+                    <template id ="cardsTemplate">
+                        <figure>
+                            <img/>
+    
+                            <figcaption>
+                                No content
+                            </figcaption>
+                        </figure>
+                    </template>
+                </article>
+
+                <article id="cardsFiltered">
+                    
+                </article>
+
+            </section> 
+        </main>
+
+</body>
+</html>
